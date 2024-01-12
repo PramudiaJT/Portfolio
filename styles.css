@@ -216,8 +216,8 @@ a > .cont > h3 {
     }
 
     .cont {
-        max-height: 10vw;
-        max-width: 10vw;
+        height: 10vw;
+        width: 10vw;
     }
 
     .logo {
