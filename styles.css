@@ -170,7 +170,9 @@ p {
 a {
     text-decoration: none;
 }
-
+a:visited {
+  color: #6b7ac7;
+}
 a > .cont > h3 {
     font-weight: bolder;
     overflow: hidden;
