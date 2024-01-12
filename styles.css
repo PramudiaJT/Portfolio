@@ -147,13 +147,17 @@ p {
     margin: 2em 0;
 }
 .cont {
-    height: 40vw;
+    height: 25vw;
     width: 25vw ;
     background-color: rgb(70, 89, 185, 10%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    border: 0.1em solid #a0aadb;
+    padding: 0.8em;
+    margin: 1em;
+    overflow: hidden;
 
 }
 
@@ -212,8 +216,8 @@ a > .cont > h3 {
     }
 
     .cont {
-        height: 10vw;
-        width: 10vw;
+        max-height: 10vw;
+        max-width: 10vw;
     }
 
     .logo {
